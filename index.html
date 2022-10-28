@@ -1,70 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration</title>
-  <link rel="stylesheet" href="./reg.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS Flexbox Layout</title>
+  <link href="flexbox.css" rel="stylesheet" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="all">
-          <div class="banner">
-              <h1>Welcome to the site!</h1>
-              <h5>Sign up for free today!</h5>
-              <a href="./login.html">Already have an account?</a>
-          </div>
-  
-          <div class="reg">
-              <form action="./success.html" style="margin: auto;">
-                  <h2>Get started with a free account</h2>
-                  <hr>
-                  <br>
-                  <label for="fname" >First name:</label><br>
-                  <input type="text" id="fname" name="fname" class="elong" placeholder="First name here" required>
-                  <br>
-                  <br>
-                  <label for="lname">Last name:</label><br>
-                  <input type="text" id="lname" name="lname" class="elong" placeholder="Last name here" required>
-                  <br>
-                  <br>
-                  <label for="pno">Phone Number:</label><br>
-                  <input type="tel" id="pno" name="pno" class="elong" required>
-                  <br>
-                  <br>
-                  <label for="email">E-mail:</label><br>
-                  <input type="text" id="email" name="email" class="elong" placeholder="xyz@gmail.com" required>
-                  <br>
-                  <br>
-                  <label for="password">Password:</label><br>
-                  <input type="password" id="password" name="password" class="elong" placeholder="Atleast 6 symbols" required>
-                  <br>
-                  <br>
-                  <label for="gender">Gender:</label>
-                  <select name="gender" id="gender" required>
-                      <option value="male">Male</option>
-                      <option value="female">Female</option>
-                      <option value="other">Other</option>
-                  </select>
-                  <br>
-                  <br>
-                  <label for="dob">Date of Birth:</label>
-                  <input type="date" id="dob" name="dob" required>
-                  <br>
-                  <br>
-                  <label for="favc">Favourite Colour:</label><br>
-                  <input type="color" id="favc" name="favc" required style="margin-left: 25px;">
-                  <br>
-                  <br>
-                  <hr>
-                <a href="./success.html"><input type="submit" class="submit" value="Sign Up"></a>
-  <!--                 <button>
-                      <a href="./success.html">Sign Up</a>
-                  </button> -->
-                  <br>
-                  <br>
-              </form>
-          </div>
+  <button class = "grid">
+  <a href="./grid.html">CSS Grid Layout</a>
+  </button>
+
+  <main>
+    <div class="big-one"> 
+      <div class="orange">
+        <img src="./icon-sedans.svg" alt="">
+        <h2 style="margin-top: 30px;">Sedans</h2>
+        <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+        <button class="orange-butt">Learn More</button>
       </div>
+      <div class="teal">
+        <img src="./icon-suvs.svg" alt="">
+        <h2 style="margin-top: 30px;">SUVs</h2>
+        <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+        <button class="teal-butt">Learn More</button>
+      </div>
+      <div class="dark-green">
+        <img src="./icon-luxury.svg" alt="">
+        <h2 style="margin-top: 30px;">Luxury</h2>
+        <p class="margin-top: 20px;">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+        <button class="dgreen-butt">Learn More</button>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
