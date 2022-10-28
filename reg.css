@@ -1,0 +1,91 @@
+body{
+    background-image: url('./bus1.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.all{
+    display: flex;
+}
+.banner{
+   margin-top: 12%;
+   margin-left: 5%;
+   background-color: #ffb300;
+   height: 325px;
+   border-radius: 25px;
+   opacity: 0.9;
+   padding: 0 15px;
+}
+.reg{
+    background-color: #ffb300;
+    display: flex;
+    justify-content: center;
+    height: 653px;
+    width: 360px;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+button, .submit{
+    border-radius: 15px;
+    padding: 10px 85px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin-left: 19%;
+}
+button a{
+  text-decoration: none;
+}
+button a:hover{
+  color: #ffb300;
+}
+input, select{
+    border-radius: 10px;
+    border: 2px solid #f2f2f2;
+}
+.elong{
+  padding: 3px 0;
+  padding-right: 130px;
+  margin-left: 25px;
+}
+hr{
+    border: 1px solid #f2f2f2;
+}
+h2{
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+h5{
+    font-size: 30px;
+}
+a{
+    text-align: center;
+    color: black;
+}
+a:hover{
+  color: #f2f2f2;
+}
+label{
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 375px){
+  .all{
+    flex-direction: column;
+  }
+  .banner{
+    margin: auto;
+    width: 315px;
+  }
+  .reg{
+    margin: auto;
+    width: 330px;
+    height: 665px;
+    margin-top: 70px;
+  }
+  .elong{
+    padding-right: 90px;
+  }
+}

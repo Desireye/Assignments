@@ -1,0 +1,54 @@
+body{
+    background-image: url('./bus2.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    height: 350px;
+    width: 450px;
+    border-radius: 25px;
+    margin-top: 9%;
+    border-top: 7px solid #f35563;
+    border-bottom: 7px solid #f35563;
+    border-left: 7px solid rgb(251,203,52);
+    border-right: 7px solid rgb(251,203,52);
+}
+.sep{
+    display: flex;
+}
+button, .submit{
+    padding: 7px 65px;
+    border-radius: 15px;
+    background-color: black;
+    color: #c3e2ea;
+}
+form{
+    padding-top: 11%;
+}
+input{
+    border-radius: 10px;
+    border: 2px solid #c3e2ea;
+}
+.a{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #c3e2ea;
+}
+
+@media screen and (max-width: 375px){
+  .login{
+    margin: auto;
+    margin-top: 140px;
+    width: 350px;
+  }
+}
