@@ -1,0 +1,179 @@
+body{
+  background-image: url(./watercolor-background_220290-15.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;    
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  background-color: #fef9f6;
+  text-align: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 10px;
+  max-width: 100%;
+}
+nav ul{
+  white-space: nowrap;
+  width: 100%;
+}
+nav li{
+  width: 10%;
+  display: inline-block;
+  padding-left: 40px;
+  margin-right: 100px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+}
+img{
+  margin-left: 15%;
+  margin-right: 0%;
+}
+.me{
+  height: 650px;
+  width: 700px;
+  background: #fbc26b;
+  padding: 20px 30px;
+  color: white;
+  margin-left: 15%;
+}
+.pro{
+  background: #fbc3c4;
+  width: 850px;
+  height: 600px;
+  padding: 7px 7px;
+  color: white;
+  font-size: 50px;
+  margin-top: -0px;
+}
+.serv{
+  color: #1cb49c;
+  column-count: 3;
+  column-rule: 1px solid lightblue;
+  column-rule-width: 3px;
+  font-size: 40px;
+  background: #fbc26b;
+  margin-top: -50px;
+  height: 150px;
+  padding-top: 20px;
+}
+.hobb{
+  background: #fbcfb1;
+  padding: 7px 7px;
+  color: white;
+  width: 1100px;
+}
+.pri{
+  background: #32c9c2;
+  width: 700px;
+  padding: 7px 7px;
+  color: white;
+}
+.skill{
+  background: #1cb49c;
+  color: white;
+  width: 500px;
+  padding: 7px 7px;
+}
+.kill{
+  font-size: 30px;
+}
+footer{
+  background: navajowhite;
+  height: 100px;
+  padding-top: 30px;
+  margin-top: auto;
+  width: 100vw;
+}
+h6{
+  text-align: center;
+  color: coral;
+}
+h2{
+  font-size: 60px;
+}
+.hi{
+  color: #97dbd7;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 55px;
+}
+.name{
+  color: darksalmon;
+}
+.bigone{
+  display: flex;
+}
+p{
+  font-size: 30px;
+}
+.prior{
+  font-size: 30px;
+}
+h4{
+  font-size: 60px;
+}
+a{
+  text-decoration: none;
+}
+h4:hover{
+  color: orange;
+  background:  #32c9c2;
+}
+.move{
+  color: coral;
+}
+
+@media screen and (max-width: 375px){
+  .nav{
+    height: 70px;
+    top: 0%;
+  }
+  nav li a{
+    font-size: 40px;
+  }
+  nav li{
+  padding-left: 3px;
+  margin-right: 150px;
+}
+  .name{
+  text-align: center;
+}
+  img{
+  margin-left: 15%;
+}
+  .me{
+    margin-left: 90%;
+    height: 700px;
+    width: 600px;
+    padding: 0px 30px;
+  }
+  .serv{
+  width: 1000px;
+  font-size: 60px;
+  }
+  #services{
+    width: 1000px;
+  }
+  footer{
+    width: 100vw;
+    text-align: center;
+ }
+  h4{
+    font-size:40px;
+  }
+  .hi{
+    font-size: 30px;
+  }
+}

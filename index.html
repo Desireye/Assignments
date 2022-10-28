@@ -1,70 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration</title>
-  <link rel="stylesheet" href="./reg.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="all">
-          <div class="banner">
-              <h1>Welcome to the site!</h1>
-              <h5>Sign up for free today!</h5>
-              <a href="./login.html">Already have an account?</a>
-          </div>
+  <header> 
+    <nav class="nav">
+      <ul>
+        <li><a href="#ame" style=" color: #1cb49c; #1cb49c margin-left: -40px;">About me</a></li>
+        <li><a href="./contact.html" target="_blank" style="color: rgb(251,194,107);">Contact me</a></li>
+        <li><a href="#services" style="color: cornflowerblue;">My Services</a></li>
+        <li><a href="#projects" style="color: lightsalmon;">My Projects</a></li>
+      </ul>
+    </nav>
+  </header>
   
-          <div class="reg">
-              <form action="./success.html" style="margin: auto;">
-                  <h2>Get started with a free account</h2>
-                  <hr>
-                  <br>
-                  <label for="fname" >First name:</label><br>
-                  <input type="text" id="fname" name="fname" class="elong" placeholder="First name here" required>
-                  <br>
-                  <br>
-                  <label for="lname">Last name:</label><br>
-                  <input type="text" id="lname" name="lname" class="elong" placeholder="Last name here" required>
-                  <br>
-                  <br>
-                  <label for="pno">Phone Number:</label><br>
-                  <input type="tel" id="pno" name="pno" class="elong" required>
-                  <br>
-                  <br>
-                  <label for="email">E-mail:</label><br>
-                  <input type="text" id="email" name="email" class="elong" placeholder="xyz@gmail.com" required>
-                  <br>
-                  <br>
-                  <label for="password">Password:</label><br>
-                  <input type="password" id="password" name="password" class="elong" placeholder="Atleast 6 symbols" required>
-                  <br>
-                  <br>
-                  <label for="gender">Gender:</label>
-                  <select name="gender" id="gender" required>
-                      <option value="male">Male</option>
-                      <option value="female">Female</option>
-                      <option value="other">Other</option>
-                  </select>
-                  <br>
-                  <br>
-                  <label for="dob">Date of Birth:</label>
-                  <input type="date" id="dob" name="dob" required>
-                  <br>
-                  <br>
-                  <label for="favc">Favourite Colour:</label><br>
-                  <input type="color" id="favc" name="favc" required style="margin-left: 25px;">
-                  <br>
-                  <br>
-                  <hr>
-                <a href="./success.html"><input type="submit" class="submit" value="Sign Up"></a>
-  <!--                 <button>
-                      <a href="./success.html">Sign Up</a>
-                  </button> -->
-                  <br>
-                  <br>
-              </form>
-          </div>
+  <main>
+    <br>
+    <br>
+    <br>
+    <h6 class="hi">Hi! My name is...</h6>
+    <h2 class="name">Soneye Modesireoluwa Temiloluwa</h2>
+    <div class="bigone">
+      <div>  
+        <img src="./IMG-20201223-WA0002.jpg" alt="" height="490px" width="300px">
       </div>
+      
+      <div class="me" >
+        <h2 id="ame">About me</h2>
+        <p>My family and friends call me Desire, I am a Nigerian girl studying Software Engineering at Babcock University. Those who know me can agree that I like to read though that doesn't translate well to my studies. My favorite aspect of coding is frontend though I'm not averse to programming languages and backend . My goal is to become a respected professional in tech one day, especially as a girl.</p>
+      </div>
+    </div>
+    
+    <div class="hobb">
+    <h2 style="text-align: left; font-size: 40px;">My Hobbies</h2>
+    <p>I like to read fiction and fanfiction, eating good food and finding new foods to try, sleeping long hours, designing websites, learning new things and just being creative!</p>
+  </div>
+    
+    <div class="pri">
+    <h2 style="text-align: left; font-size: 40px;">My Priorities</h2>
+    <p>
+      <ul class="prior">
+        <li>To progress in my tech career</li>
+        <li>To try and help those trying to learn coding</li>
+        <li>To be kind to everyone I meet</li>
+      </ul>
+    </p>
+    </div>
+
+    <div class="pro" id="projects">
+      <h2 style="color: lightsalmon; margin-bottom: 15px;">My Projects</h2>
+      <p>Zuri Cohort tasks</p>
+      <p>School projects like recreating the "How Hired Works" page of the Hired.com website</p>
+      <p>A professional school affiliated group task to make a website that helps students in their online registration</p>
+      <p>Personal projects to improve my HTML and CSS skills</p>
+      <p>I haven't been fortunate enough to participate in any other official projects.</p>
+    </div>
+    
+    <div class="skill">
+      <h2 style="text-align: left; font-size: 40px;">My Skills</h2>
+      <p>
+        <ul class="kill">
+          <li>HTML 5</li>
+          <li>CSS 3</li>
+          <li>C language</li>
+          <li>C++ language</li>
+          <li>Speed in working</li>
+        </ul>
+      </p>
+    </div>
+    
+    <div>
+      <h2 style="text-align: center; color: cornflowerblue; background: #fbc26b; margin-top: -10px" id="services">My Services</h2>
+      <div class="serv">
+        <p>Making websites using HTML</p>
+        <p>Using CSS to design those websites</p>
+        <p>Using limited visual design knowledge to aid in designing those websites</p>
+      </div>
+    </div>
+  </main>
+    
+  <footer style="height: 150px; padding-right: 775px; margin-left: -5px;">
+      <a href = "mailto: modesiresoneye@gmail.com" style="margin-left: 47%;"><i class="fa fa-envelope" style="font-size:50px;color: crimson;"></i></a>
+       <a href="https://www.facebook.com/modesire.soneye.1"><i class='fa fa-facebook-f' style='font-size:50px; color:  #3b5998;'></i></a>
+    <a href = "tel:09069446023" style="margin-top: 50px;">
+    <i class="fa fa-whatsapp" style="font-size:50px;color: #5FFC7B"></i>
+    </a>
+      <h6>
+        © 2022 Desire
+      </h6>
+  </footer>
 </body>
+
 </html>
