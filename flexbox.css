@@ -83,7 +83,75 @@ h2{
   margin-top: 80px;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 1024px){
+  .teal-butt{
+    margin-top: 103px;
+  }
+  .orange-butt{
+    margin-top: 83px;
+  }
+}
+
+@media screen and (max-width: 995.9px){
+  .dgreen-butt{
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 955px){
+  .dgreen-butt{
+    margin-top: 99px;
+  }
+  button{
+    margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  button{
+    margin-left: 19px;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .dgreen-butt{
+    margin-top: 81px;
+  }
+  .orange-butt{
+    margin-top: 81px;
+  }
+  button{
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  button{
+    padding: 10px 16px;
+    margin-left: 9px;
+    margin-top: 60px;
+  }
+  .orange{
+    width: 235px;
+  }
+  .teal{
+    width: 235px;
+  }
+  .dark-green{
+    width: 235px;
+  }
+  .big-one{
+    padding: 70px 30px;
+  }
+  .dgreen-butt{
+    margin-top: 40px;
+  }
+  .orange-butt{
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 480px){
   main{
     margin: auto;
     height: 100vh;
