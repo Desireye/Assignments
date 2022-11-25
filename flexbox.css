@@ -149,9 +149,44 @@ h2{
   .orange-butt{
     margin-top: 60px;
   }
+  .teal-butt{
+    margin-top: 59px;
+  }
 }
 
 @media screen and (max-width: 480px){
+   main{
+    margin: auto;
+    height: 100vh;
+  }
+  .big-one{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .orange{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+  .dark-green{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  button{
+    margin-top: 90px;
+    margin-left: 45px;
+    padding: 18px 28px;
+  }
+  p{
+  margin-top: 50px;
+  }
+  .dgreen-butt{
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 375px){
   main{
     margin: auto;
     height: 100vh;
